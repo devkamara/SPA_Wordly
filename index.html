@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordly Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Wordly-Dictionary</div>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>Welcome to Wordly-Dictionary</h1>
+        <p>Find definitions, synonyms, and more for any word you search.</p>
+        
+        <!-- The form ID matches your 'searchForm' and input matches 'searchInput' -->
+        <form id="search-form">
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a word..." id="search-input" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+
+        <!-- The container ID matches your 'resultContainer' -->
+        <div id="result-container"></div>
+    </main>
+</body>
+</html>
